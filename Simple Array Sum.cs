@@ -20,7 +20,6 @@ class Solution
         int n = Convert.ToInt32(Console.ReadLine());
         string[] ar_temp = Console.ReadLine().Split(' ');
         int[] ar = Array.ConvertAll(ar_temp, Int32.Parse);
-        int result = simpleArraySum(n, ar);
-        Console.WriteLine(result);
+        Console.WriteLine(simpleArraySum(n, ar));
     }
 }
